@@ -1,12 +1,12 @@
-name: Tests
-description: Ejecuta pruebas personalizadas
+name: "Tests"
+description: "Custom action for running tests"
 inputs:
   param1:
-    description: Primer parámetro para los tests
+    description: "First parameter for the test"
     required: true
   param2:
-    description: Segundo parámetro para los tests
+    description: "Second parameter for the test"
     required: true
 runs:
   using: "node16"
-  main: "index.js"
+  main: "dist/index.js"
