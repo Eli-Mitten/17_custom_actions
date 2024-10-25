@@ -1,0 +1,12 @@
+name: Tests
+description: Ejecuta pruebas personalizadas
+inputs:
+  param1:
+    description: Primer parámetro para los tests
+    required: true
+  param2:
+    description: Segundo parámetro para los tests
+    required: true
+runs:
+  using: "node16"
+  main: "index.js"

@@ -1,0 +1,5 @@
+name: InfraConfig
+description: Configuración de infraestructura
+runs:
+  using: "node16"
+  main: "index.js"
